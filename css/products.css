@@ -1,0 +1,90 @@
+.full-product {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #80808017;
+  backdrop-filter: blur(2px);
+}
+
+.full-product > .content {
+  border: 1px solid #80808050;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 900px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-product>.content > .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 40%;
+}
+
+.full-product>.content>.image > img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.full-product>.content>.details {
+  padding: 30px 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 60%;
+  gap: 30px;
+}
+
+.full-product>.content>.details > .title {
+  display: flex;
+  flex-flow: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.full-product>.content>.details>.title h2.name{
+  font-size: 1.3rem;
+  color: #404040;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.full-product>.content>.details>.title span.line {
+  display: inline-block;
+  height: 4px;
+  width: 30px;
+  background-color: #808080;
+}
+
+.full-product>.content>.details p.description {
+  font-size: 1rem;
+  color: #404040;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.full-product>.content>.details .button-box {
+  margin: 30px 0 0 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
