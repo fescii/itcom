@@ -242,4 +242,29 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  #products-list > .product {
+    border: 1px solid #80808037;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  #products-list>.product {
+    border: 1px solid #80808037;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    border-radius: 15px;
+  }
 }
