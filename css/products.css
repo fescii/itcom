@@ -109,7 +109,7 @@
 }
 
 #products-list {
-  margin: 0 0 30px 0;
+  margin: 0 0 35px 0;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -131,9 +131,9 @@
 
 #products-list>.product .image {
   /* border: 2px solid red; */
-  height: 200px;
+  height: 180px;
   width: 100%;
-  max-height: 200px;
+  max-height: 180px;
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -169,6 +169,17 @@
 
 #products-list>.product .details p {
   text-align: center;
+  color: #404040;
+}
+
+.auto-container > .button-box {
+  /* border: 1px solid red; */
+  margin: 35px 0 35px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 @media screen and (max-width: 950px) {
