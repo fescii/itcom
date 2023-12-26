@@ -5,19 +5,38 @@
   bottom: 0;
   right: 0;
   z-index: 100;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background-color: #80808017;
   backdrop-filter: blur(2px);
 }
 
+.full-product > .close {
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  top: 20px;
+  right: 40px;
+  color: #404040;
+}
+
+.full-product>.close:hover {
+  color: #be5151;
+}
+
+.full-product>.close svg {
+  width: 50px;
+  height: 50px;
+}
+
 .full-product > .content {
+  padding: 20px 0;
   border: 1px solid #80808050;
   border-radius: 20px;
   background-color: #fff;
-  width: 900px;
-  height: 550px;
+  width: 800px;
+  height: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +57,7 @@
 }
 
 .full-product>.content>.details {
-  padding: 30px 20px;
+  padding: 30px 30px 30px 0;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -87,4 +106,66 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 950px) {
+  .full-product>.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .full-product > .content {
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #80808050;
+    border-radius: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+    height: max-content;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .full-product>.content > .image {
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    min-width: 100%;
+  }
+
+  .full-product>.content>.image > img {
+    width: auto;
+    height: 90%;
+    object-fit: contain;
+  }
+
+  .full-product>.content>.details .button-box {
+    margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  .full-product>.content>.details .button-box {
+    margin: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
