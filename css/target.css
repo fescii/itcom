@@ -1,0 +1,24 @@
+.info-inner-target{
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    gap: 10px;
+}
+.info-inner-target ul{
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    line-height: 40px;
+}
+.info-inner-target ul i{
+    margin-right: 10px;
+    color: #1746e2;
+    font-size: 18px;
+}
+.contact-info_one{
+
+}

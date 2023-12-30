@@ -4979,6 +4979,15 @@
 	position: relative;
 	color:var(--main-color);
 }
+.header-phone span{
+	color: #fff;
+}
+.header-phone a{
+	color: #fff;
+}
+.header-phone{
+	color: #fff;
+}
 
 /***
 
