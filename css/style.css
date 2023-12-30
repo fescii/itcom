@@ -546,6 +546,9 @@
 .about-one_image{
 	position: relative;
 }
+.about-one img{
+	border-radius: 12px;
+}
 
 .about-one_image-two{
 	position: relative;
@@ -3598,6 +3601,12 @@
 	margin-left: var(--margin-left-30);
 	margin-right: var(--margin-right-40);
 }
+
+
+.service-block_one-upper-box{
+	min-height: 300px;
+}
+
 
 .service-block_two-content::before{
 	position: absolute;
