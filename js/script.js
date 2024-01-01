@@ -2,15 +2,35 @@
 const products = document.querySelectorAll('#products-list > .product')
 const fullProduct = document.querySelector('#full-product')
 
-console.log(products);
-console.log(fullProduct);
+// console.log(products);
+// console.log(fullProduct);
 
 if (products && fullProduct) {
+  const name = fullProduct.querySelector('.details h2.name')
+  const description = fullProduct.querySelector('.description')
+  const image = fullProduct.querySelector('.content img')
+
+  const close = fullProduct.querySelector('#close')
+
+  close.addEventListener('click', e => {
+    e.preventDefault()
+    e.stopPropagation()
+
+    fullProduct.style.display = 'none'
+  })
+
   products.forEach(product => {
     let veiwBtn = product.querySelector('.btn-style-one')
     veiwBtn.addEventListener('click', e => {
       e.preventDefault()
       e.stopPropagation()
+      
+      let productName = product.querySelector('.details .name').textContent
+      let productImage = product.querySelector('.product .image img')
+
+      name.textContent = productName
+      description.textContent = productName
+      image.setAttribute('src', productImage.getAttribute('src'))
 
       fullProduct.style.display = 'flex'
     })
