@@ -20,5 +20,16 @@
     font-size: 18px;
 }
 .contact-info_one{
-place-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-info-column{
+    /* background: red; */
+}
+.auto-container{
+    /* background: red; */
+}
+.clearfix{
+    /* background: red; */
 }
