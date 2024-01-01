@@ -1,3 +1,27 @@
+// Activate products
+const products = document.querySelectorAll('#products-list > .product')
+const fullProduct = document.querySelector('#full-product')
+
+console.log(products);
+console.log(fullProduct);
+
+if (products && fullProduct) {
+  products.forEach(product => {
+    let veiwBtn = product.querySelector('.btn-style-one')
+    veiwBtn.addEventListener('click', e => {
+      e.preventDefault()
+      e.stopPropagation()
+
+      fullProduct.style.display = 'flex'
+    })
+  })
+}
+
+
+
+
+
+
 (function ($) {
 
   "use strict";
