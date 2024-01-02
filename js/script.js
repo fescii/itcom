@@ -290,7 +290,7 @@ if (products && fullProduct) {
       nav: true,
       //autoHeight: true,
       smartSpeed: 2000,
-      autoPlay: 30000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -329,7 +329,7 @@ if (products && fullProduct) {
       center: true,
       //autoHeight: true,
       smartSpeed: 2000,
-      autoPlay: 30000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -429,7 +429,7 @@ if (products && fullProduct) {
       nav: true,
       //autoHeight: true,
       smartSpeed: 2000,
-      autoPlay: 30000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -464,7 +464,7 @@ if (products && fullProduct) {
       nav: true,
       //autoHeight: true,
       smartSpeed: 2000,
-      autoPlay: 30000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
