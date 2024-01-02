@@ -289,8 +289,8 @@ if (products && fullProduct) {
       margin: 30,
       nav: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -328,8 +328,8 @@ if (products && fullProduct) {
       nav: true,
       center: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -361,7 +361,7 @@ if (products && fullProduct) {
       loop: true,
       margin: 30,
       nav: true,
-      smartSpeed: 500,
+      smartSpeed: 2000,
       autoplay: 4000,
       navText: ['<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>'],
       responsive: {
@@ -393,7 +393,7 @@ if (products && fullProduct) {
       loop: true,
       margin: 30,
       nav: true,
-      smartSpeed: 500,
+      smartSpeed: 2000,
       autoplay: 4000,
       navText: ['<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>'],
       responsive: {
@@ -428,8 +428,8 @@ if (products && fullProduct) {
       margin: 30,
       nav: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -463,8 +463,8 @@ if (products && fullProduct) {
       margin: 0,
       nav: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
