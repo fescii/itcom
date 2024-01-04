@@ -1,5 +1,14 @@
+.target-box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 .info-inner-target{
     border: 2px solid #ccc;
+    max-width: 600px;
     padding: 30px;
     border-radius: 12px;
     align-items: center;
@@ -24,12 +33,13 @@
     justify-content: center;
     text-align: center;
 }
-.contact-info-column{
-    /* background: red; */
+.mission, .vision{
+    max-width: 600px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 20px;
 }
-.auto-container{
-    /* background: red; */
-}
-.clearfix{
-    /* background: red; */
+.mission h6, .vision h6{
+    margin-bottom: 20px;
 }
