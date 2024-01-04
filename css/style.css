@@ -1074,7 +1074,10 @@
 	padding-top: var(--padding-top-30);
 	border: 5px solid var(--main-color);
 	padding-right: var(--padding-right-30);
+	object-fit: contain;
+	background-position: center;
 }
+
 
 .steps-one_icon{
 	position: absolute;

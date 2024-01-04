@@ -1,3 +1,47 @@
+// Activate products
+const products = document.querySelectorAll('#products-list > .product')
+const fullProduct = document.querySelector('#full-product')
+
+// console.log(products);
+// console.log(fullProduct);
+
+if (products && fullProduct) {
+  const name = fullProduct.querySelector('.details h2.name')
+  const description = fullProduct.querySelector('.description')
+  const image = fullProduct.querySelector('.content img')
+
+  const close = fullProduct.querySelector('#close')
+
+  close.addEventListener('click', e => {
+    e.preventDefault()
+    e.stopPropagation()
+
+    fullProduct.style.display = 'none'
+  })
+
+  products.forEach(product => {
+    let veiwBtn = product.querySelector('.btn-style-one')
+    veiwBtn.addEventListener('click', e => {
+      e.preventDefault()
+      e.stopPropagation()
+      
+      let productName = product.querySelector('.details .name').textContent
+      let productImage = product.querySelector('.product .image img')
+
+      name.textContent = productName
+      description.textContent = productName
+      image.setAttribute('src', productImage.getAttribute('src'))
+
+      fullProduct.style.display = 'flex'
+    })
+  })
+}
+
+
+
+
+
+
 (function ($) {
 
   "use strict";
@@ -245,8 +289,8 @@
       margin: 30,
       nav: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -284,8 +328,8 @@
       nav: true,
       center: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -317,7 +361,7 @@
       loop: true,
       margin: 30,
       nav: true,
-      smartSpeed: 500,
+      smartSpeed: 2000,
       autoplay: 4000,
       navText: ['<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>'],
       responsive: {
@@ -349,7 +393,7 @@
       loop: true,
       margin: 30,
       nav: true,
-      smartSpeed: 500,
+      smartSpeed: 2000,
       autoplay: 4000,
       navText: ['<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>'],
       responsive: {
@@ -384,8 +428,8 @@
       margin: 30,
       nav: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
@@ -419,8 +463,8 @@
       margin: 0,
       nav: true,
       //autoHeight: true,
-      smartSpeed: 500,
-      autoplay: 6000,
+      smartSpeed: 2000,
+      autoPlay: 10000,
       navText: ['<span class="fa-solid fa-arrow-left fa-fw"></span>', '<span class="fa-solid fa-arrow-right fa-fw"></span>'],
       responsive: {
         0: {
