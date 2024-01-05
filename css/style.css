@@ -34,6 +34,9 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
+	/* filter: saturate(80%); */
+	/* filter: blur(5px); */
+	/* filter: grayscale(40%); */
 	padding-top: var(--padding-top-160);
 	/* background-color: var(--color-four); */
 	padding-bottom: var(--padding-bottom-100);
@@ -5647,26 +5650,4 @@
 
 .sidebar-page-container .comments-area .comment-box .reply-btn:hover{
 	color:var(--black-color);
-}
-
-
-.slider-one {
-	background-color: transparent;
-	background-image: url('/images/background.jpeg');
-	background-position: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.main-header {
-	background-color: #dbd6d67e;
-	backdrop-filter: blur(5px);
-}
-
-.slider-one .active .slider-one_text,
-.slider-one .active .slider-one_heading {
-	/* background-color: #dbd6d67e; */
-	backdrop-filter: blur(5px);
-	color: #ffffff;
-	/* text-shadow: ; */
 }
