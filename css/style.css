@@ -30,8 +30,15 @@
 
 .slider-one{
 	position: relative;
+	background-image: url('/images/resource/maya.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* filter: saturate(80%); */
+	/* filter: blur(5px); */
+	/* filter: grayscale(40%); */
 	padding-top: var(--padding-top-160);
-	background-color: var(--color-four);
+	/* background-color: var(--color-four); */
 	padding-bottom: var(--padding-bottom-100);
 }
 
@@ -60,8 +67,11 @@
 }
 
 .slider-one_title-inner{
+	background-color: rgba(0, 0, 0, 0.7); 
 	position:relative;
-	padding-top:var(--padding-top-155);
+	padding: 50px;
+	border-radius: 7px;
+	/* padding-top:var(--padding-top-155); */
 }
 
 .slider-one .slide{
@@ -71,8 +81,9 @@
 
 .slider-one_heading{
 	position: relative;
-	color: var(--color-two);
+	/* color: var(--color-two); */
 	margin-right:-20px;
+	color: #e9e9e9;
 	
 	opacity: 0;
 	transform:translateY(100px);
@@ -99,7 +110,8 @@
 	opacity: 0;
 	line-height: 30px;
 	font-size: var(--font-18);
-	color: var(--color-three);
+	color: #e9e9e9;
+	/* color: var(--color-three); */
 	margin-top: var(--margin-top-25);
 	transform:translateY(100px);
 	padding-right:var(--padding-right-30);
