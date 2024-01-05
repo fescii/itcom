@@ -1,0 +1,26 @@
+.dealers-in{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dealers-in span{
+    font-size: 28px;
+}
+.dealers-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dealers-container span{
+    text-align: center;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+}
+.logo-box img{
+    width: 53px;
+    margin-left: 40px
+}
