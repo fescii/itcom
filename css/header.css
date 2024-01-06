@@ -112,18 +112,51 @@
 	z-index:10;
 }
 
-.main-header .logo-box .logo img{
-	display:inline-block;
-	max-width:100%;
-	-webkit-transition:all 300ms ease;
-	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;
-	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+
+.main-header .logo-box .logo {
+	/* border: 2px solid rgb(175, 84, 84); */
+	max-height: max-content;
+	position: relative;
+	padding: 0 20px;
+	display: flex;
+	flex-flow: column;
 }
 
-.main-header .logo-box .logo{
-	position:relative;
+.main-header .logo-box .logo span.bar {
+	display: none;
+	position: absolute;
+	top: calc(50% - 10px);
+	/* bottom: 0; */
+	right: 0;
+	width: 5px;
+	height: 20px;
+	background: rgb(223, 121, 26);
+	background: linear-gradient(0deg,
+			rgb(223, 121, 26) 0%,
+			rgb(240, 156, 78) 100%);
+	background-color: rgb(247, 145, 162);
+	border-radius: 15px;
+}
+
+.main-header .logo-box .logo h2 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	font-size: 2.3rem;
+	color: rgb(0, 146, 255);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main-header .logo-box .logo span.art {
+	margin: 0;
+	width: 100%;
+	color: rgb(223, 121, 26);
+	line-height: 1.2;
+	font-family: var(--font-alt);
+	letter-spacing: 4px;
+	font-weight: 700;
+	text-align: center;
 }
 
 .main-header .header-lower{
@@ -195,10 +228,6 @@
 	font-family: 'Font Awesome 5 Pro';
 } */
 
-.main-header .sticky-header .main-menu .navigation > li:hover > a,
-.main-header .sticky-header .main-menu .navigation > li.current > a{
-	
-}
 
 .main-header .sticky-header .nav-outer .options-box{
 	margin-top:var(--margin-top-40);
@@ -229,9 +258,50 @@
 	cursor:pointer;
 }
 
-.main-header .sticky-header .logo{
-	position:relative;
-	padding:7px 0px;
+.main-header .sticky-header .logo {
+	/* border: 2px solid rgb(175, 84, 84); */
+	max-height: max-content;
+	position: relative;
+	padding: 0 20px;
+	display: flex;
+	flex-flow: column;
+}
+
+.main-header .sticky-header .logo span.bar {
+	display: none;
+	position: absolute;
+	top: calc(50% - 10px);
+	/* bottom: 0; */
+	right: 0;
+	width: 5px;
+	height: 20px;
+	background: rgb(223, 121, 26);
+	background: linear-gradient(0deg,
+			rgb(223, 121, 26) 0%,
+			rgb(240, 156, 78) 100%);
+	background-color: rgb(247, 145, 162);
+	border-radius: 15px;
+}
+
+.main-header .sticky-header .logo h2 {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	font-size: 1.8rem;
+	color: rgb(0, 146, 255);
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main-header .sticky-header .logo span.art {
+	margin: 0;
+	width: 100%;
+	color: rgb(223, 121, 26);
+	line-height: 1.2;
+	font-family: var(--font-alt);
+	letter-spacing: 4px;
+	font-weight: 700;
+	text-align: center;
 }
 
 .main-header.fixed-header .sticky-header{
