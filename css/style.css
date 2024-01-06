@@ -30,7 +30,7 @@
 
 .slider-one{
 	position: relative;
-	background-image: url('/images/resource/maya.jpg');
+	/* background-image: url('/images/resource/maya.jpg'); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
