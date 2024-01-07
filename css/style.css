@@ -33,6 +33,9 @@
 	padding-top: var(--padding-top-160);
 	/* background-color: var(--color-four); */
 	padding-bottom: var(--padding-bottom-100);
+	background-repeat: no-repeat;
+    	background-position: 100%;
+   	 background-size: cover;
 }
 
 .slider-one_circle-layer{
@@ -520,7 +523,7 @@
 
 .about-one_color-layer{
 	position: absolute;
-	left: -30px;
+	left: -28px;
 	top: 50px;
 	width: 320px;
 	height: 370px;
