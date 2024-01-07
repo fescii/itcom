@@ -12,7 +12,6 @@
 	right: 0px;
 	z-index:99;
 	width:100%;
-	backdrop-filter: blur(5px); 
 }
 
 .header-top{
@@ -117,7 +116,6 @@
 .main-header .logo-box .logo {
 	/* border: 2px solid rgb(175, 84, 84); */
 	max-height: max-content;
-	text-transform: uppercase;
 	position: relative;
 	padding: 0 20px;
 	display: flex;
@@ -153,7 +151,6 @@
 .main-header .logo-box .logo span.art {
 	margin: 0;
 	width: 100%;
-	text-transform: uppercase;
 	color: rgb(223, 121, 26);
 	line-height: 1.2;
 	font-family: var(--font-alt);
@@ -264,7 +261,6 @@
 .main-header .sticky-header .logo {
 	/* border: 2px solid rgb(175, 84, 84); */
 	max-height: max-content;
-	text-transform: uppercase;
 	position: relative;
 	padding: 0 20px;
 	display: flex;
@@ -291,7 +287,7 @@
 	margin: 0;
 	padding: 0;
 	line-height: 1.2;
-	font-size: 2.3rem;
+	font-size: 1.8rem;
 	color: rgb(223, 121, 26);
 	font-weight: 700;
 	text-transform: uppercase;
@@ -299,7 +295,6 @@
 
 .main-header .sticky-header .logo span.art {
 	margin: 0;
-	text-transform: uppercase;
 	width: 100%;
 	color: rgb(223, 121, 26);
 	line-height: 1.2;
