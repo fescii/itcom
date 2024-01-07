@@ -30,13 +30,6 @@
 
 .slider-one{
 	position: relative;
-	/* background-image: url('/images/resource/maya.jpg'); */
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-size: cover;
-	/* filter: saturate(80%); */
-	/* filter: blur(5px); */
-	/* filter: grayscale(40%); */
 	padding-top: var(--padding-top-160);
 	/* background-color: var(--color-four); */
 	padding-bottom: var(--padding-bottom-100);
