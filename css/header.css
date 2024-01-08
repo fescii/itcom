@@ -142,7 +142,7 @@
 	margin: 0;
 	padding: 0;
 	line-height: 1.2;
-	font-size: 2.3rem;
+	font-size: 2.7rem;
 	color: rgb(223, 121, 26);
 	font-weight: 700;
 	text-transform: uppercase;
@@ -154,9 +154,11 @@
 	color: rgb(223, 121, 26);
 	line-height: 1.2;
 	font-family: var(--font-alt);
+	font-size: 1.3rem;
 	letter-spacing: 4px;
 	font-weight: 700;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .main-header .header-lower{
