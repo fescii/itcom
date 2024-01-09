@@ -5652,3 +5652,44 @@
 .sidebar-page-container .comments-area .comment-box .reply-btn:hover{
 	color:var(--black-color);
 }
+
+#socials {
+	/* border: 1px solid red; */
+	margin: 30px 0 50px 0;
+	flex-flow: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+#socials h3 {
+	color: var(--black-color);
+}
+
+#socials .socials {
+	/* border: 1px solid red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+
+
+#socials .socials a {
+	/* border: 1px solid red; */
+	text-decoration: none;
+	color: #808080;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* gap: 25px; */
+}
+
+#socials .socials a svg {
+	width: 30px;
+	height: 30px;
+}
+
+#socials .socials a:hover {
+	color: blue;
+}
