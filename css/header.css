@@ -787,7 +787,8 @@
 .header-phone_inner{
 	position: relative;
 	font-size: var(--font-14);
-	color: var(--color-three);
+	/* color: var(--color-three); */
+	color: #111111;
 	padding-left: var(--padding-left-50);
 }
 
