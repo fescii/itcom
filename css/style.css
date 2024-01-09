@@ -5663,6 +5663,7 @@
 	gap: 20px;
 }
 #socials h3 {
+	font-weight: 500;
 	color: var(--black-color);
 }
 
@@ -5692,4 +5693,19 @@
 
 #socials .socials a:hover {
 	color: blue;
+}
+
+#socials.dealers {
+	/* border: 1px solid red; */
+	margin: 100px 0 100px 0;
+	flex-flow: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+#socials .socials img {
+	/* border: 1px solid red; */
+	height: 70px;
+	width: auto;
 }
