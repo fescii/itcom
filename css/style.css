@@ -5697,12 +5697,20 @@
 
 #socials.dealers {
 	/* border: 1px solid red; */
-	margin: 100px 0 100px 0;
+	margin: 30px 0 100px 0;
 	flex-flow: column;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
+}
+#socials.dealers .socials {
+	/* border: 1px solid red; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 25px;
 }
 #socials .socials img {
 	/* border: 1px solid red; */
